@@ -1,0 +1,14 @@
+<?php
+
+namespace App\Models;
+
+use Illuminate\Database\Eloquent\Factories\HasFactory;
+use Illuminate\Database\Eloquent\Model;
+
+class Inventarios extends Model
+{
+    use HasFactory;
+
+    protected $fillable = ['id_zona', 'folio', 'status', 'fechaInicial', 'fechaFinal', 'observaciones'];
+
+}
